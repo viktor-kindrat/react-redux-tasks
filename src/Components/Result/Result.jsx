@@ -6,13 +6,13 @@ function Result (){
     return (
         <div className="Result">
             <h1>Searching result:</h1>
-            <ul>
+            <ol>
                 {
                     data.map((item, index)=> 
-                        <ul key={index}>{item}</ul>
+                        <li key={index}>{item}</li>
                     )
                 }
-            </ul>
+            </ol>
         </div>
     )
 }
