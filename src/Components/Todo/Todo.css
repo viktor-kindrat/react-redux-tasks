@@ -1,0 +1,25 @@
+.Todo {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Todo input{
+    width: auto;
+}
+
+.Todo ul {
+    width: auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.Todo ul li {
+    width: auto;
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+    justify-content: flex-start;
+}
