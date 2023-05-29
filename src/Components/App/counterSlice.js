@@ -1,6 +1,6 @@
 const initialState = 0;
 
-export default (state = initialState, action)=>{
+let reducer = (state = initialState, action)=>{
     switch (action.type) {
         case "counter/increment":
             return state + 1
@@ -11,3 +11,5 @@ export default (state = initialState, action)=>{
     }
 
 }
+
+export default reducer
