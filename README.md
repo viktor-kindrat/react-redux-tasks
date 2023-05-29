@@ -1,4 +1,4 @@
-##### Redux practise
+# Redux practise
 
 Links for each tasks:
 
